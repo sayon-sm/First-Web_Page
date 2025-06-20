@@ -21,7 +21,6 @@ body {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
 }
 
 nav {
@@ -57,18 +56,20 @@ h1 {
 }
 
 h2 {
-  font-size: 40;
+  font-size: 40px;
   margin-bottom: 30px;
   position: relative;
 }
 
 h3 {
-  font-size: 30;
+  font-size: 30px;
   margin-bottom: 20px;
+
+  margin-top: 40px;
 }
 
 h4 {
-  font-size: 20;
+  font-size: 20px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -92,10 +93,6 @@ li {
 
 li:last-child {
   margin-bottom: 0;
-}
-
-footer p {
-  font-size: 16px;
 }
 
 #author {
@@ -172,13 +169,13 @@ button {
 
 h1::first-letter {
   font-style: normal;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 h2::before {
   content: 'TOP';
   background-color: #ffe70e;
-  color: #000;
+  color: #444;
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
